@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.similar-product-item {
+  width: 250px;
+  height: 300px;
+  list-style-type: none;
+  padding: 10px;
+}
+.similar-product-item > img {
+  width: 100%;
+  border-radius: 5px;
+}
+.similar-product-item > h1 {
+  font-size: 16px;
+}
+.price-rating-tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+}
+.price-rating-tab > .rating-tab {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-top: 0px;
+}

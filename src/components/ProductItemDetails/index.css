@@ -1,0 +1,127 @@
+/* Write your CSS here */
+.header {
+  width: 100%;
+}
+.product-item-details-container {
+  padding: 5px 30px;
+  min-height: 100vh;
+}
+.product-item-details-row-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  padding: 0 20px;
+  gap: 15px;
+}
+.product-item-details-row-1-col-1 {
+  flex-basis: 40%;
+  border-radius: 8px;
+  background-color: red;
+  padding: 0;
+  height: 100%;
+}
+.product-item-details-row-1-col-1 > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+
+.product-item-details-row-1-col-2 {
+  flex-basis: 58%;
+  flex-grow: 0;
+  height: 100%;
+  padding: 0 10px;
+}
+.rating-review-tab {
+  display: flex;
+  align-items: center;
+}
+.rating-tab {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-right: 10px;
+}
+.rating-tab > img {
+  width: 15px;
+}
+.rating-tab > p {
+  padding: 0;
+  margin: 0;
+  margin-right: 5px;
+}
+.rating-review-tab > .review {
+  font-size: 14px;
+}
+.add-cart-buttons-container {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: space-around;
+}
+.add-cart-buttons-container > button {
+  padding: 0;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+.add-cart-buttons-container > button > .minus,
+.plus {
+  height: 20px;
+  width: 20px;
+}
+.add-cart-buttons-container > p {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.cart-button {
+  color: white;
+  background-color: #3b82f6;
+  padding: 10px 20px;
+  border-style: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+span {
+  font-weight: bold;
+}
+.product-item-details-row-2 {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+.similar-products-heading {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 0 20px;
+}
+button {
+  cursor: pointer;
+}
+.error-view-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.error-view-container > img {
+  width: 80%;
+}
+.error-view-container > h1 {
+  text-align: center;
+  font-size: 50px;
+}
